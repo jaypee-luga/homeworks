@@ -1,17 +1,19 @@
 ﻿using System;
 
 // See https://aka.ms/new-console-template for more information
-
+Console.Clear(); 
 Console.Write("Enter Calendar Year: ");
 int inputYear = 0;
 int.TryParse( Console.ReadLine(), out inputYear);
 
 //Console.WriteLine($"You have entered year: {inputYear}");
 
+#region -- Constants --
 string[] MONTHS = new string[] { "JANUARY", "FEBRUARY", "MARCH", "APRIL", "MAY", "JUNE", "JULY", "AUGUST", "SEPTEMBER", "OCTOBER", "NOVEMBER", "DECEMBER"};
 string[] DAYS = new string[] {"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"};
+#endregion
 
-
+#region -- Monthly Section --
 for(int i = 1; i <= MONTHS.Length; i++){
     Console.ForegroundColor = ConsoleColor.Cyan;
     Console.WriteLine(MONTHS[i-1]);
@@ -75,3 +77,4 @@ for(int i = 1; i <= MONTHS.Length; i++){
     #endregion
     Console.WriteLine("\n");
 }
+#endregion
