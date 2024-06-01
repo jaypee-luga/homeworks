@@ -2,7 +2,7 @@
 
 // See https://aka.ms/new-console-template for more information
 Console.Clear(); 
-Console.Write("Enter Calendar Year: ");
+Console.Write("Enter A Year: ");
 int inputYear = 0;
 int.TryParse( Console.ReadLine(), out inputYear);
 
