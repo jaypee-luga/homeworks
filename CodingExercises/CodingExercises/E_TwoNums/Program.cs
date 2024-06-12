@@ -15,19 +15,15 @@ class Program
 
     static int[] TwoSum(int[] nums, int target)
     {
-        var indices = new List<int>();
-        for (var i=0; i<nums.Length; i++)
+        var hash = new Dictionary<int, int>();
+        for(int index = 0; index <= nums.Length - 1; index++)
         {
-           var x = target - nums[i];
-           var indexOfX = nums.ToList().IndexOf(x);
-
-           if (indexOfX != -1 && indexOfX != i)
-           {
-               indices.AddRange(new int[]{i,indexOfX});
-               break;
-           }
+            if(hash.ContainsKey(target - nums[index]))   
+                return new int[] {index, hash[target - nums[index]]};
+            else
+                hash.TryAdd(nums[index], index);
         }
-
-        return indices.ToArray();
+        
+        return default;
     }
 }
