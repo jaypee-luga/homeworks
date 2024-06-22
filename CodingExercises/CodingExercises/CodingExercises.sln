@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E_CommonCharacters", "E_Com
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E_TwoNums", "E_TwoNums\E_TwoNums.csproj", "{3C7F81EB-D656-4D36-8BEC-FFF75F3867CD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M_ListNodeTwoNums", "M_ListNodeTwoNums\M_ListNodeTwoNums.csproj", "{27BF454E-B569-4A81-BCD7-03B9CF36B83A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{3C7F81EB-D656-4D36-8BEC-FFF75F3867CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C7F81EB-D656-4D36-8BEC-FFF75F3867CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C7F81EB-D656-4D36-8BEC-FFF75F3867CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27BF454E-B569-4A81-BCD7-03B9CF36B83A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27BF454E-B569-4A81-BCD7-03B9CF36B83A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27BF454E-B569-4A81-BCD7-03B9CF36B83A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27BF454E-B569-4A81-BCD7-03B9CF36B83A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
